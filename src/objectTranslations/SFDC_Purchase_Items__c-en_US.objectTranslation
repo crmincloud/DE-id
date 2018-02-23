@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Purchase Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Purchase Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Vendor --></label>
+        <name>Preferred_Vendor__c</name>
+        <relationshipLabel><!-- Purchase Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Standard Cost --></label>
+        <name>Standard_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Unit of Measure --></label>
+        <name>Standard_Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Each</masterLabel>
+            <translation><!-- Each --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vendor SKU --></label>
+        <name>Vendor_SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Item Code --></label>
+        <name>item_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

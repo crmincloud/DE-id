@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Purchase Requisition</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Purchase Requisitions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Notes --></label>
+        <name>Additional_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>General &amp; Admin</masterLabel>
+            <translation><!-- General &amp; Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packaging &amp; Labeling</masterLabel>
+            <translation><!-- Packaging &amp; Labeling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research &amp; Development</masterLabel>
+            <translation><!-- Research &amp; Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Item Requested --></label>
+        <name>Item_Requested__c</name>
+        <relationshipLabel><!-- Purchase Requisitions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Item Description --></label>
+        <name>New_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quanitity --></label>
+        <name>Quanitity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Receive-by Date --></label>
+        <name>Receive_by_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Date --></label>
+        <name>Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order --></label>
+        <name>SFDC_Purchase_Order__c</name>
+        <relationshipLabel><!-- Purchase Requisitions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>1 - New</masterLabel>
+            <translation><!-- 1 - New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Need Approval</masterLabel>
+            <translation><!-- 2 - Need Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Approved</masterLabel>
+            <translation><!-- 3 - Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Sourcing</masterLabel>
+            <translation><!-- 4 - Sourcing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - PO Created</masterLabel>
+            <translation><!-- 5 - PO Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Received</masterLabel>
+            <translation><!-- 6 - Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X - Rejected</masterLabel>
+            <translation><!-- X - Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
